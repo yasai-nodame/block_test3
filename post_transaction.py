@@ -7,10 +7,10 @@ def main():
     
     transaction = {
         "time":time,
-        "sender":"E-san",
-        "receiver":"F-san",
-        "amount":999,
-        "desctiption":"Study Books Fee",
+        "sender":"A-san",
+        "receiver":"B-san",
+        "amount":111,
+        "desctiption":"YYY Project Expenses",
         "signature":"signature_sample",
     }
     
