@@ -45,7 +45,7 @@ def signature(transaction_unsigned,secret_key):
     return signature_str 
 
 if __name__ == "__main__":
-    url = "http://127.0.0.1:8002/transaction_pool/"
+    url = "https://block-test10.onrender.com/transaction_pool/"
     secret_key_str = "538b0f6204354fc867167b7a5d33206b9a94b9ae533a5e4bc8e4c0c87836c023"
     sender_pub_key_str = "bfc8f858358167c61ad4458497a643cc0bc17585b1f01e93289ce015bd262a9cae7a84c7d6396726987fae6a046ea4bd44f7b7a51d8778a5c7eec117d753dfff"
     receiver_pub_key_str = "65828a3ea8f0570a0334a39b687bef63b170a65bfda8500b2c9c81318eab577763fe03da88dbad72c972e113bb9ebf41c12dfaf1b5a2b19af67ab1551709597b"
